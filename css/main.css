@@ -1,0 +1,50 @@
+html,body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Manrope', 'Poppins', sans-serif;
+}
+
+img.pthumb {
+  transition: .5s ease;
+}
+
+img.pthumb:hover{
+  opacity: 40%;
+  transition: .5s ease;
+}
+
+.hero.is-info {
+  background-color: rgb(33, 33, 33);
+}
+
+.hero.is-info.is-landing {
+  background-image: url("../media/bg02.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero.is-info.is-pf {
+  background-image: url("../media/pf.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.box {
+  background-color: rgb(33, 33, 33);
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-top: -20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35%
+}
+
+.pthumb{
+  max-width: 100%
+}
